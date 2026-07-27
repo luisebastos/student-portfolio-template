@@ -77,7 +77,59 @@ Right now it shows the placeholder text. Next you'll make it yours.
 
 ---
 
-## Part 4 — Make it yours ✏️
+## Part 4 — Meet your AI helper 🤖
+
+Before you start editing, let's turn on a helper. GitHub has a built-in AI assistant called **Copilot**. It can explain the code to you, help you word things, suggest colors, and tell you what you broke when something looks wrong.
+
+### Opening it
+
+1. Look for the **Copilot icon** in the top bar of any GitHub page (it looks like a small robot face 🤖). Click it.
+2. A chat panel opens on the side. Type your question and press Enter.
+3. If you're asked to enable Copilot, follow the prompts — GitHub offers a **free plan** that's plenty for this project. (If you're a student, you may also qualify for the free **GitHub Student Developer Pack** at [education.github.com](https://education.github.com).)
+
+> 💡 Can't find the icon? Go to **[github.com/copilot](https://github.com/copilot)** directly.
+
+### Try it right now
+
+Open your repository, click on `index.html`, then open Copilot and ask:
+
+```
+Explain what this file does in simple terms, like I've never written code before.
+```
+
+Read the answer. Now you know what you're about to edit. 👍
+
+### Good things to ask it
+
+Copy these and change the details to fit you:
+
+- **For your tagline:**
+  `Suggest 5 short taglines for a student portfolio website. I'm in 10th grade, I like robotics and drawing, and I want to sound friendly but not cheesy.`
+
+- **For your About section:**
+  `Here are some rough notes about me: [your notes]. Turn them into two short, natural-sounding paragraphs for a portfolio "About Me" section.`
+
+- **For colors:**
+  `Give me six hex color codes that look good together for a calm, professional portfolio site. Explain which one should be the background and which should be the accent.`
+
+- **When something breaks:**
+  `My website layout looks broken after I edited this. What did I do wrong? Here's my code: [paste the section you changed]`
+
+- **When you're just curious:**
+  `What does the <section> tag do? Explain it like I'm 12.`
+
+### 📏 Rules of the road
+
+Copilot is a helper, not a replacement for you. Four things to remember:
+
+1. **Keep your own voice.** A portfolio is about *you*. Let the AI draft something, then rewrite it in the way you'd actually talk. If it doesn't sound like you, it's not done yet.
+2. **Never paste private information.** No home address, phone number, passwords, or anything you wouldn't put on the live site anyway.
+3. **Check everything.** AI sounds confident even when it's wrong. After any change it suggests, commit it and look at your live site with your own eyes.
+4. **Ask "why," not just "fix it."** Asking *"why did that break?"* teaches you something. Asking *"just fix it"* teaches you nothing. You'll get faster at this if you ask for explanations.
+
+---
+
+## Part 5 — Make it yours ✏️
 
 Now the fun part: replacing the placeholder text with your own.
 
@@ -92,6 +144,8 @@ Now the fun part: replacing the placeholder text with your own.
    - Update the email and links.
 5. **Don't worry about the code above the big banner** — that's just the design. You only edit the parts below the line that says *"EVERYTHING BELOW THIS LINE IS YOURS TO EDIT."*
 
+> 🤖 **Stuck on wording?** This is the moment to use Copilot. Tell it what you actually did — *"I built a birdhouse and a website for my mom's bakery"* — and ask it to help you describe those projects in one sentence each. Then edit what it gives you until it sounds like you.
+
 ### Saving your changes
 
 When you're happy with an edit:
@@ -104,7 +158,7 @@ When you're happy with an edit:
 
 ---
 
-## Part 5 — Keep improving it
+## Part 6 — Keep improving it
 
 You can edit `index.html` as many times as you want. Each time:
 
@@ -114,10 +168,13 @@ Ideas to try:
 - Change the colors! Near the top of the file there's a **color palette** — six lines with color codes like `#e8a63c`. Swap them for your favorite colors ([htmlcolorcodes.com](https://htmlcolorcodes.com) has a color picker that gives you codes).
 - Add a real photo of yourself (the file has a comment explaining how).
 - Add or remove projects.
+- 🤖 Ask Copilot for something new: *"How do I add a button that links to my Instagram?"* or *"How do I make my name bigger on phones?"* Try it, commit it, and see what happens. You can always undo.
 
 ---
 
 ## 🆘 Something not working?
+
+> 🤖 **Try this first:** open Copilot and describe the problem in plain English — *"my GitHub Pages site shows a 404 and I don't know why"* — and paste any error message you see. It's often faster than searching.
 
 **My site shows a 404 / "page not found" error.**
 Give it a few minutes — new sites can take up to 5 minutes the first time. Then check that in **Settings → Pages** the branch is set to **main**. Refresh.
@@ -126,10 +183,13 @@ Give it a few minutes — new sites can take up to 5 minutes the first time. The
 Make sure you clicked **Commit changes**. Then wait a minute and do a hard refresh (`Ctrl` + `Shift` + `R`, or `Cmd` + `Shift` + `R` on a Mac).
 
 **The layout looks broken after I edited.**
-You probably deleted a symbol by accident — like a `<`, `>`, or `"`. Undo your last change and try again, editing only the words, not the symbols around them.
+You probably deleted a symbol by accident — like a `<`, `>`, or `"`. Undo your last change and try again, editing only the words, not the symbols around them. Or paste the section into Copilot and ask what's missing.
 
 **I can't find the `index.html` file.**
 Make sure you're on the **Code** tab of your repository, not Settings.
+
+**Copilot's suggestion made things worse.**
+No problem — that happens. Undo your change (or edit it back), and tell Copilot what went wrong: *"That broke my page. Here's what it looks like now."* You're the one in charge; it's just a helper.
 
 ---
 
@@ -139,8 +199,8 @@ Make sure you're on the **Code** tab of your repository, not Settings.
 - [ ] Copied the template into a repo named `myusername.github.io`
 - [ ] Turned on GitHub Pages (Settings → Pages → main → Save)
 - [ ] Confirmed my site is live at `https://myusername.github.io`
-- [ ] Replaced every `✏️ FILL IN` with my own words
+- [ ] Opened Copilot and asked it at least one question about my code
+- [ ] Replaced every `✏️ FILL IN` with my own words — in my own voice
 - [ ] Committed my changes and saw them appear on my live site
 
 When every box is checked, you have a finished, live portfolio website that's all yours. Share the link and be proud of it! 🚀
-
