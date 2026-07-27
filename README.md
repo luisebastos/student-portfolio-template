@@ -158,7 +158,35 @@ When you're happy with an edit:
 
 ---
 
-## Part 6 — Keep improving it
+## Part 6 — Add Your Profile Photo 📸
+
+Want to replace the emoji with a real photo of yourself? Follow these steps:
+
+### Step 1: Prepare your photo
+- Pick a clear, professional headshot or portrait photo
+- The file should be named `profile.jpg` or `profile.png`
+- **Good size:** Between 500×500 pixels and 2000×2000 pixels
+
+### Step 2: Upload the photo to your repository
+1. Go to your repository's main page (click the **Code** tab).
+2. Click **Add file** (green button, top right).
+3. Choose **Upload files**.
+4. **Drag and drop** your photo, or click **choose your files** to select it.
+5. In the **"Add files here"** section at the bottom, type: `assets/` before the filename to create a folder.
+   - So if your file is `profile.jpg`, it becomes `assets/profile.jpg`
+6. Click **Commit changes** (green button, bottom right).
+
+### Step 3: Done! ✨
+Your photo appears automatically in the circular avatar on your site. The website is already set up to use it!
+
+> 💡 **Tips:**
+> - Make sure the photo fills the whole frame (no tiny person in a giant background).
+> - The photo will be circular on the website, so a square or portrait photo works best.
+> - If you want to change the photo later, just upload a new `profile.jpg` and it replaces the old one.
+
+---
+
+## Part 7 — Keep improving it
 
 You can edit `index.html` as many times as you want. Each time:
 
